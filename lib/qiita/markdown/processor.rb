@@ -6,7 +6,7 @@ module Qiita
       }
 
       DEFAULT_FILTERS = [
-        Filters::Greenmat,
+        Filters::Redcarpet,
         Filters::Footnote,
         Filters::Code,
         Filters::Checkbox,

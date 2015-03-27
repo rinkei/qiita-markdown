@@ -5,7 +5,7 @@ module Qiita
     # specific length without breaking the document structure.
     class SummaryProcessor < Processor
       DEFAULT_FILTERS = [
-        Filters::Greenmat,
+        Filters::Redcarpet,
         Filters::Simplify,
         HTML::Pipeline::EmojiFilter,
         Filters::Mention,
